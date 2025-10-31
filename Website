@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Growfinity Investment - Home</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-QTZB237BWF"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-QTZB237BWF');
+  </script>
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="plans.html">Plans</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+    <h1>Welcome to Growfinity Investment</h1>
+    <p>Your investment platform is live!</p>
+  </header>
+  <section>
+    <h2>Start Growing Your Wealth</h2>
+    <a href="plans.html"><button>View Investment Plans</button></a>
+  </section>
+  <footer>
+    <p>© 2025 Growfinity Investment</p>
+  </footer>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Growfinity Investment</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="plans.html">Plans</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+    <h1>About Growfinity Investment</h1>
+  </header>
+  <section>
+    <p>Growfinity is a trusted investment platform designed to help users grow their wealth through smart, secure, and transparent investment plans. Our goal is to provide simple and flexible financial solutions with attractive monthly returns.</p>
+  </section>
+  <footer>
+    <p>© 2025 Growfinity Investment</p>
+  </footer>
+</body>
+</html>
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Investment Plans - Growfinity</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="plans.html">Plans</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+    <h1>Investment Plans</h1>
+  </header>
+  <section>
+    <div class="plan">
+      <h2>Plan A</h2>
+      <p>Duration: 1 Month</p>
+      <p>Monthly Return: 10%</p>
+      <p>Minimum Investment: $100</p>
+    </div>
+    <div class="plan">
+      <h2>Plan B</h2>
+      <p>Duration: 3 Months</p>
+      <p>Monthly Return: 12%</p>
+      <p>Minimum Investment: $500</p>
+    </div>
+    <div class="plan">
+      <h2>Plan C</h2>
+      <p>Duration: 3 Months</p>
+      <p>Monthly Return: 15%</p>
+      <p>Minimum Investment: $1,000</p>
+    </div>
+  </section>
+  <footer>
+    <p>© 2025 Growfinity Investment</p>
+  </footer>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Growfinity Investment</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="plans.html">Plans</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+    <h1>Contact Us</h1>
+  </header>
+  <section>
+    <p>Email: <a href="mailto:Cryptosamee@gmail.com">Cryptosamee@gmail.com</a></p>
+    <p>Phone: +960 7852579</p>
+    <h2>Send us a message</h2>
+    <form action="mailto:Cryptosamee@gmail.com" method="post" enctype="text/plain">
+      <label>Name:</label><br>
+      <input type="text" name="Name" required><br>
+      <label>Email:</label><br>
+      <input type="email" name="Email" required><br>
+      <label>Message:</label><br>
+      <textarea name="Message" rows="5" required></textarea><br>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+  <footer>
+    <p>© 2025 Growfinity Investment</p>
+  </footer>
+</body>
+</html>
+body {
+  font-family: Arial, sans-serif;
+  margin: 0; padding: 0;
+  background: #f4f4f4;
+  color: #111;
+}
+
+header {
+  background: #002147;
+  color: gold;
+  padding: 20px;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  padding: 0;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: gold;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+section {
+  padding: 20px;
+  text-align: center;
+}
+
+.plan {
+  background: #fff;
+  padding: 15px;
+  margin: 15px auto;
+  border-radius: 10px;
+  width: 250px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+button {
+  background: gold;
+  border: none;
+  padding: 10px 20px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+footer {
+  background: #002147;
+  color: gold;
+  padding: 15px;
+  text-align: center;
+}
